@@ -3,7 +3,7 @@ pragma solidity ^0.8.18;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract Store_and_retrieve is Ownable {
+contract StoreAndRetrieve is Ownable {
   uint256 private value;
 
   event ValueChanged(uint256 newValue);
